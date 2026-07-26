@@ -1,0 +1,55 @@
+*{
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+}
+h1 {
+                            color: rgb(245, 240, 240);
+                            /* background-color: blue; */
+}
+
+
+body {
+
+                            font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+                            background-color: rgb(47, 45, 45);
+                            /* color: blue; */
+                            text-align: center;
+                            padding: 20px;
+}
+
+.sidebar {
+                            background-color: darkred;
+                            color: azure;
+                            width: 220px;
+                            height: 600px;
+                            padding: 15px;
+}
+
+.contaner {
+ display: flex;
+
+}
+.sidebar ul{
+                            list-style: none;
+
+}
+.sidebar li {
+                            padding: 30px 0;
+}
+
+.main h1{
+                            color: red;
+}
+.card-contain{
+                            display: flex;
+
+}
+.card{
+                            margin-left: 40px;
+                            border: 20px solid gray;
+}
