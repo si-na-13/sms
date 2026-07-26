@@ -1,0 +1,46 @@
+body {
+   
+}
+header{
+    background-color: blanchedalmond;
+    color: rgb(200, 34, 34);
+    text-align: center;
+    padding: 20px;
+}
+.sidebar{
+    width: 220px;
+    height: 100vh;
+    background-color: brown;
+    position: fixed;
+    top: 1px;
+
+}
+.sidebar li {
+    display: block;
+    color: white;
+    
+    padding: 15px;
+    font-size: 25px;
+
+}
+.sidebar :hover{
+    background-color: rgb(235, 173, 173);
+    }
+    .contaner {
+        margin-left: 300px;
+        padding: 20px;
+    }
+    button{
+        background-color: rgb(50, 118, 226);
+        color: aliceblue;
+        border: none;
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 15px;
+        cursor: pointer;
+
+    }
+    button:hover{
+        background-color: rgb(16, 165, 73);
+    }
+    
