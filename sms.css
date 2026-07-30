@@ -12,12 +12,13 @@ h1 {
 body {
 
                             font-family: Arial, Helvetica, sans-serif;
-
+                            background-color: blanchedalmond;
+                           margin:0 ;
 }
 
 .header {
                             background-color: rgb(47, 45, 45);
-                            /* color: blue; */
+                            color: white;
                             text-align: center;
                             padding: 20px;
 }
@@ -50,6 +51,51 @@ body {
 
 }
 .card{
-                            margin-left: 40px;
-                            border: 20px solid gray;
+                            margin-left: 80px;
+                            border: 20px solid rgb(106, 68, 68);
+                            margin: 80px;
+}
+. welcome{
+    text-align: center;
+    padding: 30px;
+}
+.card{
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+
+
+}
+.card:hover{
+    background: lightblue;
+    transform: scale(1.05);
+
+}
+button{
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: darkblue;
+
+}
+footer{
+    background: rgb(13, 18, 168);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
